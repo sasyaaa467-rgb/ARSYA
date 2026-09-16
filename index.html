@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siti Rizquna Zulia Arsya | Portofolio Rekayasa Perangkat Lunak & Calon Wirausahawan</title>
+  <meta name="description" content="Landing page portofolio resmi Siti Rizquna Zulia Arsya - Siswi SMK Negeri Tembarak Jurusan Rekayasa Perangkat Lunak (XI RPL B). Keahlian Coding, Figma, Kotlin, HTML, Database, dan Pleton Inti.">
+  <meta name="keywords" content="Siti Rizquna Zulia Arsya, Arsya RPL, SMK Negeri Tembarak, XI RPL B, Portofolio Siswa SMK, Kotlin Developer, UI UX Figma, Wirausahawan Muda">
+  <meta name="author" content="Siti Rizquna Zulia Arsya">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Siti Rizquna Zulia Arsya | Portofolio Personal">
+  <meta property="og:description" content="Portofolio resmi Siti Rizquna Zulia Arsya - Siswi XI RPL B SMK Negeri Tembarak. Keahlian Coding, Figma, Kotlin, HTML, Database.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===================================================
+       HEADER & NAVIGATION BAR
+       =================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="nav-brand" id="nav-brand-logo">
+        <span class="brand-icon">A</span>
+        <span>Arsya<span class="brand-tag">RPL</span></span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#beranda" class="nav-link active" id="nav-link-beranda">Beranda</a>
+        <a href="#tentang" class="nav-link" id="nav-link-tentang">Tentang</a>
+        <a href="#pendidikan" class="nav-link" id="nav-link-pendidikan">Pendidikan</a>
+        <a href="#keahlian" class="nav-link" id="nav-link-keahlian">Keahlian</a>
+        <a href="#pengalaman" class="nav-link" id="nav-link-pengalaman">Pengalaman</a>
+        <a href="#proyek" class="nav-link" id="nav-link-proyek">Proyek</a>
+        <a href="#prestasi" class="nav-link" id="nav-link-prestasi">Prestasi</a>
+        <a href="#kontak" class="nav-link" id="nav-link-kontak">Kontak</a>
+      </nav>
+
+      <!-- Nav Action Buttons -->
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" title="Ubah Tema Gelap/Terang" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </button>
+
+        <a href="https://wa.me/6288290773644?text=Halo%20Siti%20Rizquna%20Zulia%20Arsya,%20saya%20tertarik%20untuk%20berdiskusi%20dan%20berkolaborasi!" 
+           target="_blank" rel="noopener noreferrer" class="btn-primary-sm" id="nav-wa-btn">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars" id="hamburger-icon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================================
+         HERO SECTION
+         =================================================== -->
+    <section class="section hero-section" id="beranda">
+      <div class="container hero-grid">
+        <!-- Hero Information Text -->
+        <div class="hero-content">
+          <div class="hero-tagline">
+            <span class="badge-dot"></span>
+            <span>SMK NEGERI TEMBARAK &bull; XI RPL B</span>
+          </div>
+
+          <h1 class="hero-title">
+            Halo, Saya <br>
+            <span class="text-gradient">Siti Rizquna Zulia Arsya</span>
+          </h1>
+
+          <p class="hero-description">
+            Siswi jurusan <strong>Rekayasa Perangkat Lunak (RPL)</strong> dengan dedikasi tinggi dalam pengembangan aplikasi, logika pemrograman, dan desain UI/UX. Berbekal karakter disiplin dari organisasi <strong>Pleton Inti</strong>, saya berkomitmen menciptakan solusi digital inovatif dan siap melangkah menuju masa depan sebagai seorang <strong>Wirausahawan (Techpreneur)</strong>.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="https://wa.me/6288290773644?text=Halo%20Arsya,%20saya%20ingin%20berkomunikasi%20mengenai%20proyek%20atau%20kolaborasi!" 
+               target="_blank" rel="noopener noreferrer" class="btn-primary" id="hero-cta-contact">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>Hubungi Saya Langsung</span>
+            </a>
+
+            <a href="#proyek" class="btn-outline" id="hero-cta-projects">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Eksplorasi Proyek</span>
+            </a>
+          </div>
+
+          <!-- Hero Meta Highlights -->
+          <div class="hero-meta-chips">
+            <div class="meta-chip">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Tembarak, Temanggung</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fa-solid fa-code"></i>
+              <span>Mobile & Web Dev</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fa-solid fa-briefcase"></i>
+              <span>Tujuan: Wirausahawan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual Photo with Floating Interactive Cards -->
+        <div class="hero-visual">
+          <div class="hero-visual-wrapper">
+            <div class="hero-ambient-glow"></div>
+            
+            <div class="hero-avatar-frame">
+              <img src="assets/profile.jpg" alt="Foto Resmi Siti Rizquna Zulia Arsya" class="hero-avatar-img" id="hero-profile-image">
+            </div>
+
+            <!-- Floating Badge 1: Class & Major -->
+            <div class="floating-badge badge-float-1">
+              <div class="floating-icon">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+              <div>
+                <div class="floating-text-sm">Kelas Kejuruan</div>
+                <div class="floating-text-lg">XI RPL B</div>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Ambition -->
+            <div class="floating-badge badge-float-2">
+              <div class="floating-icon">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div>
+                <div class="floating-text-sm">Aspirasi Masa Depan</div>
+                <div class="floating-text-lg">Wirausahawan Muda</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Strip -->
+      <div class="container">
+        <div class="stats-strip">
+          <div class="stat-item">
+            <div class="stat-number text-gradient">5+</div>
+            <div class="stat-label">Keahlian Teknologi Inti</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number text-gradient">100%</div>
+            <div class="stat-label">Kedisiplinan & Dedikasi</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number text-gradient">4+</div>
+            <div class="stat-label">Karya & Proyek Praktik</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number text-gradient">1</div>
+            <div class="stat-label">Visi Sukses Wirausaha</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         TENTANG SAYA (ABOUT ME) SECTION
+         =================================================== -->
+    <section class="section" id="tentang">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-regular fa-user"></i>
+            <span>Profil Singkat</span>
+          </div>
+          <h2 class="section-title">Mengenal Lebih Dekat <span class="text-gradient">Tentang Saya</span></h2>
+          <p class="section-subtitle">Kombinasi antara presisi logika rekayasa perangkat lunak, kepekaan desain antarmuka, dan karakter kepemimpinan yang tangguh.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Story -->
+          <div class="about-text-col">
+            <p class="about-text-lead">
+              Saya adalah seorang siswi aktif di <strong>SMK Negeri Tembarak</strong> yang mengambil spesialisasi <strong>Rekayasa Perangkat Lunak (RPL)</strong> di kelas <strong>XI RPL B</strong>.
+            </p>
+            <p class="about-text-p">
+              Bagi saya, dunia teknologi bukan sekadar menulis baris-baris kode, melainkan seni memecahkan masalah nyata yang dihadapi orang di sekitar kita. Saya memiliki ketertarikan mendalam dalam menciptakan aplikasi mobile menggunakan <em>Kotlin</em>, merancang arsitektur basis data yang efisien, dan menyusun antarmuka pengguna yang memikat di <em>Figma</em>.
+            </p>
+            <p class="about-text-p">
+              Pengalaman saya di organisasi <strong>Pleton Inti</strong> telah membentuk pribadi saya menjadi individu yang tepat waktu, tahan banting, memiliki integritas tinggi, serta sanggup bekerja sama dalam regu yang dinamis. Nilai-nilai inilah yang menjadi modal utama saya untuk meraih cita-cita sebagai seorang <strong>Wirausahawan (Entrepreneur)</strong> digital yang sukses.
+            </p>
+            
+            <div class="about-quote">
+              "Disiplin dalam bertindak, kreatif dalam berkarya, dan berani melangkah untuk membangun usaha yang membawa manfaat bagi sesama."
+            </div>
+          </div>
+
+          <!-- Feature Cards -->
+          <div class="about-cards-column">
+            <div class="about-card">
+              <div class="about-card-icon">
+                <i class="fa-solid fa-medal"></i>
+              </div>
+              <div>
+                <h3>Disiplin & Jiwa Kepemimpinan</h3>
+                <p>Terlatih melalui kegiatan Pleton Inti untuk selalu konsisten, fokus pada detail, serta memiliki mentalitas pantang menyerah.</p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <div>
+                <h3>Kreativitas & Solusi Digital</h3>
+                <p>Mampu menerjemahkan kebutuhan fungsional menjadi antarmuka yang ramah pengguna (UI/UX) dan sistem aplikasi yang handal.</p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon">
+                <i class="fa-solid fa-bullseye"></i>
+              </div>
+              <div>
+                <h3>Orientasi Kewirausahaan</h3>
+                <p>Melihat setiap peluang dan masalah sebagai bibit ide bisnis yang dapat diselesaikan dengan sentuhan teknologi modern.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         PENDIDIKAN (EDUCATION) SECTION
+         =================================================== -->
+    <section class="section" id="pendidikan">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Jenjang Studi</span>
+          </div>
+          <h2 class="section-title">Riwayat <span class="text-gradient">Pendidikan</span></h2>
+          <p class="section-subtitle">Menimba ilmu kejuruan dan mengasah keahlian teknis secara berkesinambungan.</p>
+        </div>
+
+        <div class="education-showcase">
+          <!-- Main School Banner -->
+          <div class="education-header-block">
+            <div class="school-identity">
+              <div class="school-emblem">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <div class="school-names">
+                <h3>SMK NEGERI TEMBARAK</h3>
+                <div class="major-badge">
+                  <i class="fa-solid fa-laptop-code"></i>
+                  <span>Rekayasa Perangkat Lunak (RPL)</span>
+                </div>
+              </div>
+            </div>
+            <div class="class-tag">
+              <i class="fa-solid fa-users"></i>
+              <span>Kelas: XI RPL B</span>
+            </div>
+          </div>
+
+          <!-- Vocational Study Pillars -->
+          <div class="curriculum-grid">
+            <div class="curriculum-card">
+              <div class="card-head">
+                <i class="fa-solid fa-mobile-screen curriculum-icon"></i>
+                <h4>Pemrograman Mobile & OOP</h4>
+              </div>
+              <p>Mempelajari paradigma pemrograman berorientasi objek serta pengembangan aplikasi Android berbasis Kotlin modern.</p>
+            </div>
+
+            <div class="curriculum-card">
+              <div class="card-head">
+                <i class="fa-solid fa-globe curriculum-icon"></i>
+                <h4>Teknologi Web & UI/UX</h4>
+              </div>
+              <p>Mendalami struktur web semantik HTML5, CSS layouting modern, serta pembuatan prototype desain produk digital di Figma.</p>
+            </div>
+
+            <div class="curriculum-card">
+              <div class="card-head">
+                <i class="fa-solid fa-server curriculum-icon"></i>
+                <h4>Arsitektur Basis Data</h4>
+              </div>
+              <p>Merancang skema database relasional (RDBMS), normalisasi data, serta eksekusi kueri SQL untuk pengelolaan informasi terstruktur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         KEAHLIAN (SKILLS) SECTION
+         =================================================== -->
+    <section class="section" id="keahlian">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-solid fa-gears"></i>
+            <span>Kemampuan Teknis</span>
+          </div>
+          <h2 class="section-title">Keahlian & <span class="text-gradient">Kompetensi</span></h2>
+          <p class="section-subtitle">Rangkaian keahlian yang terus saya asah dalam perjalanan sebagai calon pengembang perangkat lunak.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill 1: CODING -->
+          <div class="skill-card" id="skill-coding">
+            <div>
+              <div class="skill-icon-wrapper">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <h3 class="skill-name">CODING</h3>
+              <p class="skill-desc">Penguasaan logika algoritma, struktur data dasar, pemecahan masalah (problem solving), dan implementasi clean code.</p>
+            </div>
+            <div>
+              <div class="skill-level-bar">
+                <div class="skill-progress" style="width: 88%;"></div>
+              </div>
+              <div class="skill-level-text">
+                <span>Kemahiran</span>
+                <span>Tingkat Lanjut</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 2: FIGMA -->
+          <div class="skill-card" id="skill-figma">
+            <div>
+              <div class="skill-icon-wrapper">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+              <h3 class="skill-name">FIGMA</h3>
+              <p class="skill-desc">Merancang wireframe, user flow, interaktif prototype mobile & web, serta membangun design system dengan prinsip UI/UX human-centered.</p>
+            </div>
+            <div>
+              <div class="skill-level-bar">
+                <div class="skill-progress" style="width: 90%;"></div>
+              </div>
+              <div class="skill-level-text">
+                <span>Kemahiran</span>
+                <span>Sangat Terampil</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 3: KOTLIN -->
+          <div class="skill-card" id="skill-kotlin">
+            <div>
+              <div class="skill-icon-wrapper">
+                <i class="fa-brands fa-android"></i>
+              </div>
+              <h3 class="skill-name">KOTLIN</h3>
+              <p class="skill-desc">Pengembangan aplikasi Android native modern menggunakan Kotlin, integrasi layout XML, ViewBinding, dan manajemen siklus hidup aplikasi.</p>
+            </div>
+            <div>
+              <div class="skill-level-bar">
+                <div class="skill-progress" style="width: 82%;"></div>
+              </div>
+              <div class="skill-level-text">
+                <span>Kemahiran</span>
+                <span>Terampil & Aktif</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 4: HTML -->
+          <div class="skill-card" id="skill-html">
+            <div>
+              <div class="skill-icon-wrapper">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <h3 class="skill-name">HTML</h3>
+              <p class="skill-desc">Menyusun struktur web semantik HTML5, aksesibilitas konten, integrasi komponen multimedia, serta optimasi SEO yang terstandar.</p>
+            </div>
+            <div>
+              <div class="skill-level-bar">
+                <div class="skill-progress" style="width: 95%;"></div>
+              </div>
+              <div class="skill-level-text">
+                <span>Kemahiran</span>
+                <span>Tingkat Mahir</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill 5: DATABASE -->
+          <div class="skill-card" id="skill-database">
+            <div>
+              <div class="skill-icon-wrapper">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h3 class="skill-name">DATABASE</h3>
+              <p class="skill-desc">Perancangan ERD (Entity Relationship Diagram), pengolahan data SQL (DDL, DML), normalisasi tabel relasional, serta integrasi data lokal SQLite.</p>
+            </div>
+            <div>
+              <div class="skill-level-bar">
+                <div class="skill-progress" style="width: 85%;"></div>
+              </div>
+              <div class="skill-level-text">
+                <span>Kemahiran</span>
+                <span>Terampil & Solid</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         PENGALAMAN & KEGIATAN (ORGANISASI PLETON INTI) SECTION
+         =================================================== -->
+    <section class="section" id="pengalaman">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-solid fa-people-group"></i>
+            <span>Aktivitas & Karakter</span>
+          </div>
+          <h2 class="section-title">Pengalaman & <span class="text-gradient">Kegiatan</span></h2>
+          <p class="section-subtitle">Membangun kepribadian tangguh dan kepemimpinan berintegritas melalui wadah organisasi.</p>
+        </div>
+
+        <div class="experience-banner">
+          <!-- Activity Photo -->
+          <div class="experience-image-col">
+            <img src="assets/pleton-inti.jpg" alt="Organisasi Pleton Inti SMK Negeri Tembarak" class="experience-img">
+            <div class="experience-img-overlay"></div>
+          </div>
+
+          <!-- Activity Description -->
+          <div class="experience-content-col">
+            <div class="exp-badge">
+              <i class="fa-solid fa-flag"></i>
+              <span>ORGANISASI UNGGULAN SEKOLAH</span>
+            </div>
+
+            <h3 class="exp-title">ORGANISASI PLETON INTI</h3>
+            <p class="exp-description">
+              Menjadi anggota aktif <strong>Pleton Inti (Paskibra / Tonti)</strong> merupakan wadah krusial yang menempa karakter pribadi saya. Di sini, saya tidak hanya belajar ketegasan tata upacara dan baris-berbaris, namun juga menyerap esensi kepemimpinan dan disiplin mutlak yang relevan dalam manajemen proyek perangkat lunak maupun perintisan usaha.
+            </p>
+
+            <div class="exp-points-list">
+              <div class="exp-point-item">
+                <div class="exp-point-icon">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+                <div class="exp-point-text">
+                  <strong>Kedisiplinan & Ketepatan Waktu Tinggi</strong>
+                  <span>Terbiasa dengan manajemen waktu ketat, kepatuhan instruksi, dan standar presisi yang tinggi.</span>
+                </div>
+              </div>
+
+              <div class="exp-point-item">
+                <div class="exp-point-icon">
+                  <i class="fa-solid fa-users-gear"></i>
+                </div>
+                <div class="exp-point-text">
+                  <strong>Kekompakan Regu & Kerjasama Tim</strong>
+                  <span>Menyatukan visi dan gerak langkah bersama rekan satu regu demi mencapai keselarasan sempurna.</span>
+                </div>
+              </div>
+
+              <div class="exp-point-item">
+                <div class="exp-point-icon">
+                  <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <div class="exp-point-text">
+                  <strong>Ketahanan Mental & Jiwa Kepemimpinan</strong>
+                  <span>Mampu tetap tenang, solutif, dan fokus memberikan yang terbaik dalam situasi penuh tekanan.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         HASIL KARYA & PROYEK (PORTFOLIO SHOWCASE) SECTION
+         =================================================== -->
+    <section class="section" id="proyek">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-solid fa-briefcase"></i>
+            <span>Showcase Portofolio</span>
+          </div>
+          <h2 class="section-title">Hasil Karya & <span class="text-gradient">Proyek</span></h2>
+          <p class="section-subtitle">Koleksi karya praktikum dan proyek inovatif yang telah saya kembangkan.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="portfolio-filter-bar">
+          <button class="filter-btn active" data-filter="all">Semua Proyek</button>
+          <button class="filter-btn" data-filter="kotlin">Mobile (Kotlin)</button>
+          <button class="filter-btn" data-filter="figma">UI/UX (Figma)</button>
+          <button class="filter-btn" data-filter="web-db">Web & Database</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-container">
+          <!-- Project 1: Kotlin & DB -->
+          <div class="project-card" data-category="kotlin web-db" id="proj-quickpos">
+            <div class="project-image-box">
+              <img src="assets/project-pos.jpg" alt="QuickPOS Android Kasir UMKM" class="project-img">
+              <span class="project-tag-floating">Kotlin & SQLite</span>
+            </div>
+            <div class="project-details">
+              <div>
+                <h3 class="project-title">QuickPOS - Aplikasi Kasir UMKM Mobile</h3>
+                <p class="project-description">
+                  Aplikasi sistem kasir digital berbasis Android yang dirancang untuk membantu efisiensi para pelaku usaha mikro. Dilengkapi fitur pencatatan transaksi real-time, katalog produk, dan laporan omzet harian.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">Kotlin</span>
+                  <span class="tech-tag">SQLite Database</span>
+                  <span class="tech-tag">Android Studio</span>
+                  <span class="tech-tag">Coding</span>
+                </div>
+              </div>
+              <div class="project-action-row">
+                <a href="#kontak" class="project-link-btn">
+                  <span>Pelajari Lebih Lanjut</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-check-circle"></i> Selesai</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: Figma UI/UX -->
+          <div class="project-card" data-category="figma" id="proj-zenflow">
+            <div class="project-image-box">
+              <img src="assets/project-figma.jpg" alt="ZenFlow Design System Figma" class="project-img">
+              <span class="project-tag-floating">UI/UX Design</span>
+            </div>
+            <div class="project-details">
+              <div>
+                <h3 class="project-title">ZenFlow - E-Commerce UI Kit & Prototype</h3>
+                <p class="project-description">
+                  Perancangan sistem antarmuka komprehensif untuk platform belanja online lokal. Memiliki integrasi komponen reusable, alur checkout intuitif, dan adaptasi tema glassmorphism modern.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">Figma</span>
+                  <span class="tech-tag">UI/UX Prototyping</span>
+                  <span class="tech-tag">Design System</span>
+                  <span class="tech-tag">Wireframing</span>
+                </div>
+              </div>
+              <div class="project-action-row">
+                <a href="#kontak" class="project-link-btn">
+                  <span>Lihat Detail Desain</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-check-circle"></i> Prototype Siap</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: HTML & Web -->
+          <div class="project-card" data-category="web-db" id="proj-webport">
+            <div class="project-image-box">
+              <img src="assets/project-figma.jpg" alt="Website Portofolio Interaktif" class="project-img">
+              <span class="project-tag-floating">Web Development</span>
+            </div>
+            <div class="project-details">
+              <div>
+                <h3 class="project-title">Portal Interaktif & Portofolio Personal</h3>
+                <p class="project-description">
+                  Pengembangan landing page responsif dengan performa tinggi tanpa framework bloated. Menampilkan arsitektur semantik HTML5, CSS kustom dengan tema dinamis, serta navigasi interaktif.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3 Modern</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Responsive</span>
+                </div>
+              </div>
+              <div class="project-action-row">
+                <a href="#kontak" class="project-link-btn">
+                  <span>Eksplorasi Fitur</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-check-circle"></i> Live Project</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Database Management -->
+          <div class="project-card" data-category="web-db" id="proj-dbsystem">
+            <div class="project-image-box">
+              <img src="assets/project-pos.jpg" alt="Sistem Basis Data Inventaris" class="project-img">
+              <span class="project-tag-floating">Database & SQL</span>
+            </div>
+            <div class="project-details">
+              <div>
+                <h3 class="project-title">Sistem Basis Data Inventaris Sekolah</h3>
+                <p class="project-description">
+                  Perancangan struktur basis data relasional untuk sistem pencatatan logistik dan alat praktikum laboratorium RPL. Menyajikan skema relasi teruji dan query SQL yang optimal.
+                </p>
+                <div class="project-tech-tags">
+                  <span class="tech-tag">Database</span>
+                  <span class="tech-tag">MySQL / Relational</span>
+                  <span class="tech-tag">SQL Query</span>
+                  <span class="tech-tag">Coding Logika</span>
+                </div>
+              </div>
+              <div class="project-action-row">
+                <a href="#kontak" class="project-link-btn">
+                  <span>Lihat Struktur Relasi</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <span style="font-size: 0.8rem; color: var(--text-muted);"><i class="fa-solid fa-check-circle"></i> Terverifikasi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         PRESTASI (ACHIEVEMENTS) SECTION
+         =================================================== -->
+    <section class="section" id="prestasi">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-solid fa-trophy"></i>
+            <span>Pencapaian & Dedikasi</span>
+          </div>
+          <h2 class="section-title">Prestasi & <span class="text-gradient">Apresiasi</span></h2>
+          <p class="section-subtitle">Buah dari kedisiplinan berorganisasi dan ketekunan belajar di bidang teknologi informasi.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement 1 -->
+          <div class="achievement-card">
+            <div class="trophy-badge">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3 class="achievement-title">Prestasi Pleton Inti (Baris Berbaris)</h3>
+            <p class="achievement-desc">Meraih penghargaan dalam ajang kompetisi baris-berbaris dan upacara bersama kontingen Pleton Inti, mengukir prestasi berkat kekompakan dan disiplin tinggi.</p>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card">
+            <div class="trophy-badge">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3 class="achievement-title">Kompetisi Desain UI/UX & Kreativitas Digital</h3>
+            <p class="achievement-desc">Menampilkan karya desain antarmuka aplikasi berkonsep ramah pengguna dalam kegiatan pameran karya kejuruan RPL SMK Negeri Tembarak.</p>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card">
+            <div class="trophy-badge">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h3 class="achievement-title">Siswa Berprestasi Akademik Kejuruan</h3>
+            <p class="achievement-desc">Konsisten mempertahankan dedikasi belajar dan performa praktik pemrograman di kelas XI RPL B SMK Negeri Tembarak dengan nilai unggul.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         CITA-CITA & TUJUAN (ENTREPRENEUR) SECTION
+         =================================================== -->
+    <section class="section" id="cita-cita">
+      <div class="container">
+        <div class="ambition-box">
+          <div class="ambition-grid">
+            <div>
+              <div class="ambition-badge">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Cita-Cita & Tujuan Mulia</span>
+              </div>
+              <h2 class="ambition-heading">
+                Menjadi Seorang <br>
+                <span class="text-gradient">Wirausahawan (Techpreneur)</span>
+              </h2>
+              <p class="ambition-desc">
+                Cita-cita utama saya adalah mendirikan dan mengelola usaha berbasis teknologi yang mandiri. Mengintegrasikan kemampuan <em>software engineering</em> dengan naluri bisnis untuk menciptakan produk digital yang memberdayakan UMKM di daerah saya.
+              </p>
+              <a href="#kontak" class="btn-primary">
+                <i class="fa-solid fa-handshake"></i>
+                <span>Mari Bermitra & Berkolaborasi</span>
+              </a>
+            </div>
+
+            <!-- Vision Pillars -->
+            <div class="vision-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-store"></i>
+                </div>
+                <div>
+                  <strong>Digitalisasi Pelaku Usaha Lokal</strong>
+                  <span>Membantu bisnis lokal bertransformasi ke era digital melalui sistem POS dan e-commerce modern.</span>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-laptop-file"></i>
+                </div>
+                <div>
+                  <strong>Membuka Lapangan Kerja Teknologi</strong>
+                  <span>Membangun tim kreatif anak muda daerah untuk bersama-sama menciptakan solusi software bernilai tinggi.</span>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <i class="fa-solid fa-shield"></i>
+                </div>
+                <div>
+                  <strong>Kemandirian Finansial & Inovasi Berkelanjutan</strong>
+                  <span>Menjadi pengusaha tangguh berintegritas yang mampu beradaptasi cepat dengan kemajuan teknologi global.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================
+         KONTAK (CONTACT) SECTION
+         =================================================== -->
+    <section class="section" id="kontak">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge">
+            <i class="fa-solid fa-comments"></i>
+            <span>Terhubung Langsung</span>
+          </div>
+          <h2 class="section-title">Hubungi <span class="text-gradient">Saya</span></h2>
+          <p class="section-subtitle">Terbuka untuk diskusi proyek, kerja sama kewirausahaan, magang industri, atau sekadar bertukar sapa.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct WhatsApp Action Card -->
+          <div class="contact-info-card">
+            <h3>Mari Berdiskusi & Berkolaborasi!</h3>
+            <p style="color: var(--text-secondary); margin-top: 8px; font-size: 0.95rem;">
+              Saya dapat dihubungi secara langsung melalui saluran WhatsApp atau informasi kontak di bawah ini:
+            </p>
+
+            <!-- Direct WA Call-to-action Button -->
+            <a href="https://wa.me/6288290773644?text=Halo%20Siti%20Rizquna%20Zulia%20Arsya,%20saya%20tertarik%20untuk%20berdiskusi%20dan%20berkolaborasi!" 
+               target="_blank" rel="noopener noreferrer" class="contact-direct-wa-btn" id="contact-wa-direct-link">
+              <i class="fa-brands fa-whatsapp" style="font-size: 1.4rem;"></i>
+              <span>Hubungi via WhatsApp Sekarang</span>
+            </a>
+
+            <div class="contact-channels">
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <div class="channel-title">Nomor WhatsApp / Telp</div>
+                  <div class="channel-val">+62 882-9077-3644</div>
+                </div>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="channel-title">Asal Sekolah & Domisili</div>
+                  <div class="channel-val">SMK Negeri Tembarak, Temanggung, Jawa Tengah</div>
+                </div>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <i class="fa-solid fa-id-card"></i>
+                </div>
+                <div>
+                  <div class="channel-title">Status Pelajar</div>
+                  <div class="channel-val">Siswa Kelas XI RPL B (Rekayasa Perangkat Lunak)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-card">
+            <h3 style="margin-bottom: 20px;">Kirim Pesan Cepat</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label class="form-label" for="sender-name">Nama Lengkap</label>
+                <input type="text" id="sender-name" class="form-control" placeholder="Masukkan nama Anda..." required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="sender-subject">Tujuan / Keperluan</label>
+                <input type="text" id="sender-subject" class="form-control" placeholder="Contoh: Kolaborasi Proyek / Pertanyaan..." required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="sender-message">Isi Pesan</label>
+                <textarea id="sender-message" class="form-control" placeholder="Tuliskan pesan Anda kepada Arsya secara jelas..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit-form" id="btn-send-message">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span>Kirim Pesan Melalui WhatsApp</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================
+       FOOTER
+       =================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="brand-icon">A</span>
+          <span>Siti Rizquna Zulia Arsya</span>
+        </div>
+
+        <div class="footer-links">
+          <a href="#beranda">Beranda</a>
+          <a href="#tentang">Tentang</a>
+          <a href="#pendidikan">Pendidikan</a>
+          <a href="#keahlian">Keahlian</a>
+          <a href="#pengalaman">Pengalaman</a>
+          <a href="#proyek">Proyek</a>
+          <a href="#kontak">Kontak</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Siti Rizquna Zulia Arsya &bull; SMK Negeri Tembarak (XI RPL B). All rights reserved.</p>
+        <a href="#beranda" class="back-to-top">
+          <span>Kembali ke atas</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Box -->
+  <div class="toast-box" id="toast-notification">
+    <i class="fa-solid fa-circle-check toast-icon"></i>
+    <div id="toast-message">Pesan siap diteruskan ke WhatsApp!</div>
+  </div>
+
+  <!-- JavaScript Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
